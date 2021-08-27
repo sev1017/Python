@@ -1,0 +1,15 @@
+# SinaMari Pfupajena
+# I love Italian Food
+
+print(' SSS   M     M  PPPP')
+print('S   S  MM   MM  P    P')
+print('S      MM   MM  P    P')
+print(' SSS   M  M  M  PPPP')
+print('    S  M     M  P')
+print('S   S  M     M  P')
+print(' SSS   M     M  P')
+
+# Can create drawing with block letters as well 
+_____
+Output: #block letters
+SMP 
