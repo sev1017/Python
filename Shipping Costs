@@ -1,0 +1,41 @@
+weight = 41.5
+premium_ground_shipping = 125
+
+# Ground Shipping
+
+if weight <= 2:
+  cost_ground = weight * 1.5 + 20
+elif weight <= 6:
+  cost_ground = weight * 3 + 20
+elif weight <= 10:
+  cost_ground = weight * 4 + 20 
+elif weight > 10:
+  cost_ground = weight * 4.75 + 20
+else:
+  print("Unable to ship ground.")
+
+print("Ground Shipping Cost:", cost_ground)
+print("Premium Ground Shipping Cost:", premium_ground_shipping)
+# Because it is an integer, we use commas. Compared to the other project where we used a string, then the + and string concatenation would be called for 
+
+# Drone Shipping
+
+weight = 41.5
+premium_drone_shipping = 150
+
+if weight <= 2:
+  cost_drone = weight * 4.5 + 0
+elif weight <= 6:
+  cost_drone = weight * 9 + 0
+elif weight <= 10:
+  cost_drone = weight * 12 + 0
+elif weight > 10:
+  cost_drone = weight * 14.25 + 0
+else: 
+  print("Unable to ship drone.")
+
+print("Drone Shipping Cost:", cost_drone)
+print("Premium Drone Shipping Cost:", premium_drone_shipping)
+
+# The cheapest method for shipping a 4.8 pound package would be ground shipping 
+# The cheapest method for shipping a 41.5 pound package would be ground shipping
